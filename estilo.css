@@ -14,7 +14,7 @@ header {
     max-height: 100vh;
     color: white;
     overflow: hidden;
-    background-color: rgb(131, 55, 2);
+    background-color: rgb(147, 71, 16);
 }
 
 .logo {
@@ -39,7 +39,7 @@ header {
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: rgb(131, 55, 2);
+    background-color: rgb(147, 71, 16);
     -webkit-background-size: cover;
     overflow: hidden;
 }
@@ -102,6 +102,14 @@ h3 {
     top: 28vh;
     left: -27%;
 }
+.linha1{
+    display: inline-block;
+    position: relative;
+    top: -75vh;
+    left: 10%;
+    height: 30%;
+    border-left: 1px solid rgb(255, 255, 255);
+}
 
 /*------------------ PAGINA 2 ------------------*/
 .pag2 {
@@ -115,7 +123,7 @@ h3 {
     background-attachment: fixed;
     background-blend-mode: darken;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5),
-    rgba(0, 0, 0, 0.8)), url("../portifolio/galeria/trabalho1.jpg");
+    rgba(0, 0, 0, 0.9)), url("../portifolio/galeria/trabalho1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     -webkit-background-size: cover;
@@ -128,8 +136,8 @@ h4{
     color: rgb(255, 255, 255);
     top: -15vh;
     font-weight: 900;
-    font-size: 10vh;
-    left: 30%;
+    font-size: 7vh;
+    left: 35%;
 }
 .trab1{
     display: inline-block;
@@ -137,7 +145,7 @@ h4{
     width: 20%;
     height: 40vh;
     top:50vh ;
-    right:25% ;
+    right:10% ;
 }
 .trab2{
     display: inline-block;
@@ -145,15 +153,23 @@ h4{
     width: 20%;
     height: 40vh;
     top: 100vh;
-    left: 0%;
+    left: 10%;
 }
 .trab3{
     display: inline-block;
     position: relative;
     width: 20%;
     height: 40vh;
-    top: 100vh;
-    left: 20%;
+    top: 150vh;
+    right: 50%;
+}
+.linha2{
+    display: inline-block;
+    position: relative;
+    top: -75vh;
+    left: 10%;
+    height: 30%;
+    border-left: 1px solid rgb(255, 255, 255);
 }
 
 /*------------------ PAGINA 3 ------------------*/
@@ -161,33 +177,34 @@ h4{
     display: inline-block;
     position: relative;
     width: 100%;
-    height: 100vh;
+    height: 90vh;
     max-height: 100vh;
     left: 0%;
     top: -5vh;
-    background-attachment: fixed;
     background-blend-mode: darken;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5),
-    rgba(0, 0, 0, 0.8)), url("../portifolio/galeria/trabalho2.jpg");
+    rgba(0, 0, 0, 0.9)), url("../portifolio/galeria/trabalho2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     -webkit-background-size: cover;
     overflow: hidden;
 }
 h5{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: inline-block;
     position: relative;
-    font-size: 8vh;
-    left: 15%;
-    top: 20vh;
+    font-size: 7vh;
+    font-weight: bold;
+    left: 18%;
+    top: 30vh;
     color: aliceblue;
 }
 h6{
     display: inline-block;
     position: relative;
-    font-size: 6vh;
-    right: 25%;
-    top: 50vh;
+    font-size: 5vh;
+    right: 20%;
+    top: 40vh;
     color: aliceblue;
 }
 /*------------------ PAGINA 4 ------------------*/
@@ -195,7 +212,7 @@ h6{
     display: inline-block;
     position: relative;
     width: 100%;
-    height: 100vh;
+    height: 50vh;
     max-height: 100vh;
     left: 0%;
     top: -5vh;
