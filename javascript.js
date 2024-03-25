@@ -13,9 +13,7 @@ const sr= ScrollReveal({
   sr.reveal('.img3',{delay:100, origin:'right'});
   sr.reveal('.img4',{delay:100, origin:'right'});
   sr.reveal('.logo',{delay:100, origin:'right'});
-  sr.reveal('.trab1',{delay:-100, origin:'left'});
-  sr.reveal('.trab2',{delay:-100, origin:'right'});
-  sr.reveal('.trab3',{delay:-100, origin:'left'});
+  sr.reveal('.texto2',{delay:100, origin:'top'});
  /* ------- FUNCAO ANCORA --------*/
 var $doc = $('html, body');
 $('.').click(function() {
