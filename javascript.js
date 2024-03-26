@@ -1,5 +1,5 @@
 const sr= ScrollReveal({
-    distance :'10%',
+    distance :'20%',
     duration: 2000,
     delay: 5,
     reset:true
@@ -9,11 +9,9 @@ const sr= ScrollReveal({
   sr.reveal('h2',{delay:100, origin:'top'});
   sr.reveal('h3',{delay:100, origin:'top'});
   sr.reveal('h4',{delay:-100, origin:'top'});
-  sr.reveal('.img1',{delay:100, origin:'right'});
-  sr.reveal('.img3',{delay:100, origin:'right'});
-  sr.reveal('.img4',{delay:100, origin:'right'});
-  sr.reveal('.logo',{delay:100, origin:'right'});
-  sr.reveal('.texto2',{delay:100, origin:'top'});
+  sr.reveal('.linha1',{delay:100, origin:'top'});
+  sr.reveal('.text1',{delay:-200, origin:'left'});
+  sr.reveal('.text2',{delay:-100, origin:'top'});
  /* ------- FUNCAO ANCORA --------*/
 var $doc = $('html, body');
 $('.').click(function() {
