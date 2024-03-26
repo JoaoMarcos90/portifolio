@@ -12,6 +12,9 @@ const sr= ScrollReveal({
   sr.reveal('.linha1',{delay:100, origin:'top'});
   sr.reveal('.text1',{delay:-200, origin:'left'});
   sr.reveal('.text2',{delay:-100, origin:'top'});
+  sr.reveal('.icone1',{delay:-100, origin:'top'});
+  sr.reveal('.icone2',{delay:-100, origin:'top'});
+  sr.reveal('.icone3',{delay:-100, origin:'top'});
  /* ------- FUNCAO ANCORA --------*/
 var $doc = $('html, body');
 $('.').click(function() {

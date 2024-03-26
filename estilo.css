@@ -190,3 +190,27 @@ display: inline-block;
     top: 10vh;
     border: solid 3px black;
 }
+.icone1{
+    display: inline-block;
+    position: absolute;
+    width: 3%;
+    height: 7vh;
+    right: 85%;
+    top: 60vh;
+}
+.icone2{
+    display: inline-block;
+    position: absolute;
+    width: 3%;
+    height: 7vh;
+    right: 75%;
+    top: 60vh;
+}
+.icone3{
+    display: inline-block;
+    position: absolute;
+    width: 3%;
+    height: 7vh;
+    right: 65%;
+    top: 60vh;
+}
