@@ -1,9 +1,9 @@
 * {
     margin: 0;
     max-width: 100%;
-    max-height: 100vh;
+    max-height: 130vh;
     box-sizing: border-box;
-
+    text-decoration: none;
 }
 
 header {
@@ -61,59 +61,68 @@ h1 {
 }
 
 h2 {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:Arial, Helvetica, sans-serif;
     display: inline-block;
     position: relative;
-    font-size: 17vh;
+    font-size: 15vh;
+    font-weight: bold;
     color: aliceblue;
-    top: 20vh;
-    left: 5%;
+    top: 10vh;
+    left:10%;
 }
-
-h3 {
+h3{
+    font-family:Arial, Helvetica, sans-serif;
     display: inline-block;
     position: relative;
-    font-size: 5vh;
-    font-weight: 10;
+    font-size: 2vh;
+    font-weight: bold;
     color: aliceblue;
-    top: 28vh;
-    left: -32%;
+    top: 50vh;
+    left:40%;
 }
 
+.linha2{
+    position: relative;
+    width: 10%;
+    left:10%;
+    top: 10vh;
+    border: solid 1px rgb(255, 255, 255);
+}
 /*----------- BOTAO AGENDA -------------*/
 
 button {
-    font-family: inherit;
+    font-family:Arial, Helvetica, sans-serif;
     background-color: transparent;
     text-decoration: none;
     display: inline-block;
     width: 12%;
-    right: 48%;
-    top: 50vh;
+    right:45%;
+    top:30vh;
     height: 8%;
-    line-height: 0%;
+    font-weight: 500;
     overflow: hidden;
     cursor: pointer;
     margin: 0px;
-    font-size: 18px;
+    font-size: 20px;
     z-index: 1;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     border: 2px solid rgb(255, 254, 254);
     border-radius: 6px;
     position: relative;
+    text-decoration: none;
 }
 
 button::before {
     position: absolute;
     content: "";
-    background: rgb(113, 69, 3);
+    background: rgb(255, 255, 255);
     width: 500px;
     height: 100px;
     z-index: -1;
     border-radius: 20%;
 }
 
-a,button:hover {
+button:hover {
     color: rgb(0, 0, 0);
 }
 
@@ -126,13 +135,10 @@ button:before {
 button:hover::before {
     top: -30px;
     left: -30px;
+    
 
 }
-a{
-    color: aliceblue;
-    text-decoration:none;
-    font-size: 3vh;
-}
+
 
 
 
@@ -141,7 +147,7 @@ a{
     display: inline-block;
     position: relative;
     width: 100%;
-    height: 80vh;
+    height: 100vh;
     left: 0%;
     top: -1vh;
     background-color: rgb(145, 72, 33);
@@ -153,15 +159,15 @@ a{
 .img1{
 display: inline-block;
     position: relative;
-    width: 50%;
-    height: 100vh;
-    left: 50%;
-    top: 0vh;
+    width: 40%;
+    height: 60vh;
+    left: 55%;
+    top: 10vh;
     background-blend-mode: darken;
     background-attachment: fixed;
     background-image: linear-gradient(rgba(0, 0, 0, 0.1),
             rgba(0, 0, 0, 0.4)), url("../portifolio/galeria/trabalho2.jpg");
-    background-repeat: no-repeat;
+    background-repeat:round;
     background-size: cover;
     -webkit-background-size: cover;
     overflow: hidden;
@@ -213,4 +219,36 @@ display: inline-block;
     height: 7vh;
     right: 65%;
     top: 60vh;
+}
+/*------------------ PAGINA 3 --------------------------PAGINA 2 ----------------------------*/ 
+
+.pag33{
+    display: inline-block;
+    position:relative;
+    width: 50%;
+    height: 50vh;
+    top:- 38vh;
+    margin-top: -2vh;
+    left: 40%;
+    background-color: rgb(215, 9, 9);
+}
+
+
+/*------------------ PAGINA 4 --------------------------PAGINA 2 ----------------------------*/ 
+.pag4 {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    max-height: 100vh;
+    left: 0%;
+    top: -20vh;
+    background-blend-mode: darken;
+    background-attachment: fixed;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.0),
+            rgba(0, 0, 0, 0.0)), url("../portifolio/galeria/trab2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    overflow: hidden;
 }
