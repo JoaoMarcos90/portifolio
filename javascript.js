@@ -11,6 +11,7 @@ const sr= ScrollReveal({
   sr.reveal('h4',{delay:-100, origin:'top'});
   sr.reveal('.linha1',{delay:100, origin:'top'});
   sr.reveal('.linha2',{delay:100, origin:'left'});
+  sr.reveal('.linha3',{delay:100, origin:'right'});
   sr.reveal('.text1',{delay:-200, origin:'left'});
   sr.reveal('.text2',{delay:-100, origin:'top'});
   sr.reveal('.icone1',{delay:200, origin:'top'});

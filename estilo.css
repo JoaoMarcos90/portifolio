@@ -147,10 +147,10 @@ button:hover::before {
     display: inline-block;
     position: relative;
     width: 100%;
-    height: 100vh;
+    height: 90vh;
     left: 0%;
     top: -1vh;
-    background-color: rgb(145, 72, 33);
+    background-color: rgb(167, 90, 49);
     background-repeat: no-repeat;
     background-size: cover;
     -webkit-background-size: cover;
@@ -220,29 +220,87 @@ display: inline-block;
     right: 65%;
     top: 60vh;
 }
+
+.linha3{
+    position: relative;
+    width: 20%;
+    left:75%;
+    top: 12vh;
+    border: solid 2px rgb(0, 0, 0);
+}
 /*------------------ PAGINA 3 --------------------------PAGINA 2 ----------------------------*/ 
 
-.pag33{
+.pag3{
     display: inline-block;
-    position:relative;
-    width: 50%;
-    height: 50vh;
-    top:- 38vh;
-    margin-top: -2vh;
-    left: 40%;
-    background-color: rgb(215, 9, 9);
+    position: relative;
+    width: 100%;
+    height: 80vh;
+    max-height: 100vh;
+    left: 0%;
+    top: -2vh;
+    background-blend-mode: darken;
+    background-attachment: fixed;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8),
+            rgba(0, 0, 0, 0.8)), url("../portifolio/galeria/trab1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    overflow: hidden;
 }
 
+.objeto1{
+    display: block;
+    position: relative;
+    color: aliceblue;
+    font-size: 3vh;
+    left: 12%;
+    top: 25vh;
+}
+.objeto2{
+    display: block;
+    position: relative;
+    color: aliceblue;
+    font-size: 3vh;
+    left: 33%;
+    top: 35vh;
+}
+.objeto3{
+    display: block;
+    position: relative;
+    color: aliceblue;
+    font-size: 3vh;
+    left: 55%;
+    top: 5vh;
+}
+.objeto4{
+    display: block;
+    position: relative;
+    color: aliceblue;
+    font-size: 3vh;
+    left: 75%;
+    top: 18vh;
+}
+.teste1{
+    display: inline-block;
+    position: relative;
+    color: aliceblue;
+    background-color: rgb(255, 255, 255);
+    width: 4%;
+    font-size: 5vh;
+    height: 5vh;
+    left: 10%;
+    top: 20vh;
 
+}
 /*------------------ PAGINA 4 --------------------------PAGINA 2 ----------------------------*/ 
 .pag4 {
     display: inline-block;
     position: relative;
     width: 100%;
-    height: 100vh;
+    height: 70vh;
     max-height: 100vh;
     left: 0%;
-    top: -20vh;
+    top: -2vh;
     background-blend-mode: darken;
     background-attachment: fixed;
     background-image: linear-gradient(rgba(0, 0, 0, 0.0),
