@@ -40,6 +40,15 @@ h1 {
     top: 5vh;
     left: 40%;
 }
+h3 {
+    display: inline-block;
+    position: relative;
+    color: rgb(255, 255, 255);
+    font-size: 3vh;
+    font-weight: 900;
+    top: 5vh;
+    left: 43%;
+}
 
 /*------------------ PAGINA 1 ---------------PAGINA 1 --------------------------------------*/
 .pag1 {
@@ -52,8 +61,8 @@ h1 {
     top: 0vh;
     background-blend-mode: darken;
     background-attachment: fixed;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5),
-            rgba(0, 0, 0, 0.4)), url("../portifolio/galeria/trabalho1.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.0),
+            rgba(0, 0, 0, 0.0)), url("../portifolio/galeria/trabalho1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     -webkit-background-size: cover;
@@ -64,29 +73,20 @@ h2 {
     font-family: Arial, Helvetica, sans-serif;
     display: inline-block;
     position: relative;
-    font-size: 15vh;
+    font-size: 14vh;
     font-weight: bold;
     color: aliceblue;
-    top: 10vh;
-    left: 10%;
+    top: 8vh;
+    left: 1%;
 }
 
-h3 {
-    font-family: Arial, Helvetica, sans-serif;
-    display: inline-block;
-    position: relative;
-    font-size: 2vh;
-    font-weight: bold;
-    color: aliceblue;
-    top: 50vh;
-    left: 40%;
-}
+
 
 .linha2 {
     position: relative;
-    width: 10%;
-    left: 10%;
-    top: 10vh;
+    width: 20%;
+    left: 1%;
+    top: 9vh;
     border: solid 1px rgb(255, 255, 255);
 }
 
@@ -98,7 +98,7 @@ button {
     text-decoration: none;
     display: inline-block;
     width: 12%;
-    right: 45%;
+    right: 35%;
     top: 30vh;
     height: 8%;
     font-weight: 500;
@@ -149,10 +149,10 @@ button:hover::before {
     display: inline-block;
     position: relative;
     width: 100%;
-    height: 120vh;
+    height: 100vh;
     left: 0%;
     top: -1vh;
-    background-color: rgb(167, 90, 49);
+    background-color: rgb(34, 35, 41);
     background-repeat: no-repeat;
     background-size: cover;
     -webkit-background-size: cover;
@@ -160,14 +160,14 @@ button:hover::before {
 }
 
 .text1 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: inline-block;
     position: absolute;
-    color: rgb(0, 0, 0);
-    font-size: 10vh;
+    color: rgb(255, 254, 254);
+    font-size: 8vh;
     font-weight: bold;
-    left: 10%;
-    top: 20vh;
+    left: 38%;
+    top: 10vh;
 }
 
 .text2 {
@@ -175,16 +175,16 @@ button:hover::before {
     position: absolute;
     color: rgb(255, 253, 253);
     font-size: 7vh;
-    left: 12%;
+    left: 4%;
     top: 40vh;
 }
 
 .linha1 {
     position: relative;
     width: 10%;
-    left: 11%;
-    top: 32vh;
-    border: solid 5px rgb(255, 255, 255);
+    left: 40%;
+    top: 20vh;
+    border: solid 3px rgb(255, 255, 255);
 }
 .linha3 {
     position: relative;
@@ -208,8 +208,8 @@ button:hover::before {
     position: absolute;
     width: 7%;
     height: 10vh;
-    left: 25%;
-    top: 100vh;
+    left: 20%;
+    top: 30vh;
 }
 
 .icone2 {
@@ -217,8 +217,8 @@ button:hover::before {
     position: absolute;
     width: 7%;
     height: 10vh;
-    left: 45%;
-    top: 100vh;
+    left: 41%;
+    top: 30vh;
 }
 
 .icone3 {
@@ -226,8 +226,8 @@ button:hover::before {
     position: absolute;
     width: 7%;
     height: 10vh;
-    left: 65%;
-    top: 100vh;
+    left: 60%;
+    top: 30vh;
 }
 
 .imgsomos {
@@ -239,14 +239,6 @@ button:hover::before {
     top: -20vh;
 }
 
-.sectionIcones {
-    position: relative;
-    display: block;
-    width: 100%;
-    height: 30vh;
-    top: 90vh;
-    background-color: rgb(231, 179, 123);
-}
 
 
 
