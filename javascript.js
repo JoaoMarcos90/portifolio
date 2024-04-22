@@ -9,8 +9,7 @@ const sr= ScrollReveal({
   sr.reveal('h2',{delay:-700, origin:'top'});
   sr.reveal('h3',{delay:-700, origin:'top'});
   sr.reveal('h4',{delay:-100, origin:'top'});
-  sr.reveal('.linha2',{delay:-800, origin:'left'});
-  sr.reveal('.linha3',{delay:-800, origin:'right'});
+  sr.reveal('.linha2',{delay:-500, origin:'left'});
   sr.reveal('.text2',{delay:-600, origin:'left'});
   sr.reveal('.icone1',{delay:-200, origin:'top'});
   sr.reveal('.icone2',{delay:-300, origin:'top'});

@@ -73,11 +73,11 @@ h2 {
     font-family: Arial, Helvetica, sans-serif;
     display: inline-block;
     position: relative;
-    font-size: 14vh;
+    font-size: 12vh;
     font-weight: bold;
     color: aliceblue;
     top: 8vh;
-    left: 1%;
+    left: 5%;
 }
 
 
@@ -85,7 +85,7 @@ h2 {
 .linha2 {
     position: relative;
     width: 20%;
-    left: 1%;
+    left: 5%;
     top: 9vh;
     border: solid 1px rgb(255, 255, 255);
 }
@@ -98,7 +98,7 @@ button {
     text-decoration: none;
     display: inline-block;
     width: 12%;
-    right: 35%;
+    right: 27%;
     top: 30vh;
     height: 8%;
     font-weight: 500;
@@ -186,27 +186,12 @@ button:hover::before {
     top: 20vh;
     border: solid 3px rgb(255, 255, 255);
 }
-.linha3 {
-    position: relative;
-    width: 0%;
-    height: 10vh;
-    left: 38%;
-    top: 10vh;
-    border: solid 2px rgb(255, 255, 255);
-}
-.linha4 {
-    position: relative;
-    width: 0%;
-    height: 10vh;
-    left: 58%;
-    top: 0vh;
-    border: solid 2px rgb(255, 255, 255);
-}
+
 
 .icone1 {
     display: inline-block;
     position: absolute;
-    width: 7%;
+    width: 5%;
     height: 10vh;
     left: 20%;
     top: 30vh;
@@ -215,7 +200,7 @@ button:hover::before {
 .icone2 {
     display: inline-block;
     position: absolute;
-    width: 7%;
+    width: 5%;
     height: 10vh;
     left: 41%;
     top: 30vh;
@@ -224,7 +209,7 @@ button:hover::before {
 .icone3 {
     display: inline-block;
     position: absolute;
-    width: 7%;
+    width: 5%;
     height: 10vh;
     left: 60%;
     top: 30vh;
